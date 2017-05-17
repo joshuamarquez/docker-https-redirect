@@ -15,7 +15,7 @@ $ docker pull joshuamarquez/https-redirect
 To test it actually works first run `https-redirect` instance.
 
 ```sh
-$ docker run --name nginx_redirect -d https-redirect:latest
+$ docker run --name nginx_redirect -d https-redirect
 ```
 
 Then using `appropriate/curl` make a request.
